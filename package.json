@@ -1,0 +1,27 @@
+{
+  "name": "npm-module-example-hello",
+  "version": "1.0.0",
+  "description": "Just a NodeJS module example.",
+  "main": "./lib/index.js",
+  "bin": {
+"module-hello": "bin/module-hello.js"
+},
+"preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/WikiDreams/npm-module-example-hello.git"
+  },
+  "keywords": [
+    "hello",
+    "example"
+  ],
+  "author": "Wiki Dreams <danielsantosvieiramail@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WikiDreams/npm-module-example-hello/issues"
+  },
+  "homepage": "https://github.com/WikiDreams/npm-module-example-hello"
+}
